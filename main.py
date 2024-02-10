@@ -16,7 +16,7 @@ load_dotenv()
 # Website URL
 url = "https://www.airasia.com/flights/search/?origin=BKI&destination=KUL&departDate=21%2F02%2F2024&tripType=O&adult=1&child=0&infant=0&locale=en-gb&currency=MYR&airlineProfile=all&type=paired&cabinClass=economy&upsellWidget=true&upsellPremiumFlatbedWidget=true&isOC=false&isDC=false&uce=false&ancillaryAbTest=false&providers=&taIDs="
 # User Agent
-user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+user_agent = "Your user agent"
 
 # Global variable to store the previous flight price
 previous_flight_price = 388
@@ -98,7 +98,7 @@ def main():
 
 # Schedule task with schedule library        
 if __name__ == "__main__":
-    schedule.every().day.at("18:35").do(main)
+    schedule.every().day.at("19:15").do(main)
     schedule.every().day.at("21:45").do(main)
     schedule.every().day.at("21:50").do(main)
 
