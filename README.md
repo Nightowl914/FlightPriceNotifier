@@ -28,6 +28,7 @@ This Python script is designed to track flight ticket prices for a specific rout
 - ##### Replace 'your_email@gmail.com' with your Gmail address, 'recipient_email@example.com' with the recipient's email address, and 'your_email_password' with your Gmail account password.
   
 4. #### Run the script:
+- ##### Set the 'user_agent' variable by Googling your user agent and copying it.
 - ##### Execute the Python script by running the following command in your terminal or command prompt:
   ```
   python main.py
