@@ -6,9 +6,9 @@ This Python script is designed to track flight ticket prices for a specific rout
 
 ## Instructions
 1. #### Clone the Repository:
-```
-git clone https://github.com/Nightowl914/FlightPriceNotifier.git
-```
+   ```
+   git clone https://github.com/Nightowl914/FlightPriceNotifier.git
+   ```
 
 2. #### Environment Setup:
 - ##### Ensure you have Python installed on your system.
@@ -28,16 +28,16 @@ git clone https://github.com/Nightowl914/FlightPriceNotifier.git
 - ##### Replace your_email@gmail.com with your Gmail address, recipient_email@example.com with the recipient's email address, and your_email_password with your Gmail account password.
   
 4. #### Run the script:
--##### Execute the Python script by running the following command in your terminal or command prompt:
- ```
- python main.py
- ```
+- ##### Execute the Python script by running the following command in your terminal or command prompt:
+  ```
+  python main.py
+  ```
 
 5. #### Scheduled Execution:
--##### The script will run at the specified times each day to check for updates in ticket prices.
--##### You can modify the schedule by adjusting the 'schedule.every().day.at()' calls in the script to your preferred times.
+- ##### The script will run at the specified times each day to check for updates in ticket prices.
+- ##### You can modify the schedule by adjusting the 'schedule.every().day.at()' calls in the script to your preferred times.
 
 6. #### Receive Email Notifications:
--##### If there are changes in ticket prices, you will receive email notifications at the specified email address (RECIPIENT_EMAIL).
+- ##### If there are changes in ticket prices, you will receive email notifications at the specified email address (RECIPIENT_EMAIL).
 
 Feel free to customize the script, update the 'url' and use different selector with selenium if you want to track flight prices for a different route or date using your desired airline website.
